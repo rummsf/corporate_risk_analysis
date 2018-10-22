@@ -1,0 +1,2 @@
+module SanctionedEntitiesHelper
+end

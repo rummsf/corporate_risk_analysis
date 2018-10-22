@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  company_number: 1
+  status: MyString
+  incorporation_date: 2018-10-22 15:10:06
+
+two:
+  name: MyString
+  company_number: 1
+  status: MyString
+  incorporation_date: 2018-10-22 15:10:06
