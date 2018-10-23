@@ -16,7 +16,10 @@ ActiveRecord::Schema.define(version: 2018_10_22_141936) do
     t.string "name"
     t.integer "company_number"
     t.string "status"
+    t.string "jurisdiction_code"
     t.datetime "incorporation_date"
+    t.datetime "dissolution_date"
+    t.string "address"
     t.integer "location_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -31,9 +34,11 @@ ActiveRecord::Schema.define(version: 2018_10_22_141936) do
 
   create_table "directors", force: :cascade do |t|
     t.string "name"
+    t.string "jurisdiction_code"
     t.string "position"
-    t.string "address"
-    t.datetime "date_of_birth"
+    t.string "occupation"
+    t.string "company_name"
+    t.integer "company_number"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
