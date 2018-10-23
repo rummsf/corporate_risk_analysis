@@ -1,0 +1,6 @@
+<h3> Search </h3>
+  <%= form_tag search_index_path, method: :get do %>
+  <%= text_field_tag :director, params[:director] %>
+  <%= text_field_tag :company, params[:company] %>
+  <%= submit_tag "Search", name: nil %>
+<% end %>

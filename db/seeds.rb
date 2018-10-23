@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+def load_opencorporates_hash
+  response_string = RestClient.get('https://api.opencorporates.com/v0.4')
+  JSON.parse(response_string)
+end
