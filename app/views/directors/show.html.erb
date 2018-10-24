@@ -1,4 +1,13 @@
-<h3><%= @director.name %></h3>
+<h2><%= @director.name %></h2>
+
+<h3>List of associated companies</h3>
   <ul>
-    <li>Position: <%= @director.position %></li>
+    <% @director.companies.each do |company| %>
+    <div class="company-details">
+      <h3><%= company.name %></h3>
+      <p>Position in company: <%= CompanyDirector.find_by(company_id:company.id, director_id: @director.id).position %></p>
+      <p>Address: <%= company.location.address %>, <%= company.location.city %>, <%= company.location.state %>, <%= company.location.country %>.</p>
+      <br>
+    </div>
+    <% end %>
   </ul>
