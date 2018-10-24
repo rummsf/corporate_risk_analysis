@@ -20,6 +20,6 @@ class DirectorsController < ApplicationController
 
   private
   def director_params
-    params.require(:director).permit(:name)
+    params.require(:director).permit(:name, :term)
   end
 end

@@ -5,7 +5,7 @@ class Director < ApplicationRecord
   has_many :locations, through: :companies
 
   include PgSearch
-  pg_search_scope :search_by_name, against: [:name],
+  pg_search_scope :search_by_name, against: [:name, :date_of_birth],
     using: {
       tsearch: {
         prefix: true,
