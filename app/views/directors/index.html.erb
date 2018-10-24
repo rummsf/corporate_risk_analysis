@@ -1,0 +1,10 @@
+<%= form_tag directors_path, method: "get" do %>
+  <%= label_tag :q, "Search by Name:" %>
+  <%= text_field_tag :q, params[:q] %>
+  <%= submit_tag "Search", name:nil %>
+<% end %>
+
+
+<% @directors.each do |director| %>
+<p> <%= link_to director.name, director_path(director) %> || <%= director.company_name %> </p>
+<% end %>

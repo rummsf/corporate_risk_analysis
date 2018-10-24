@@ -4,7 +4,7 @@ class Search
   end
 
   def self.get_companies(search)
-    response = HTTParty.get("https://api.opencorporates.com/v0.4/companies/search?q=" + search)
+    response = HTTParty.get("https://api.opencorporates.com/v0.4/companies/search?q=" + search + "&order=score")
   end
 
   def self.get_directors(search)
