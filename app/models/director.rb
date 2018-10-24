@@ -7,7 +7,9 @@ class Director < ApplicationRecord
   include PgSearch
   pg_search_scope :search_by_name, against: [:name, :date_of_birth],
     using: {
+      dmetaphone: {any_word: true, sort_only: true},
       tsearch: {
+        any_word: true,
         prefix: true,
         highlight: {
         start_sel: '<b>',
@@ -16,12 +18,9 @@ class Director < ApplicationRecord
       }
     }
 
-  def self.search(query)
-    if query
-      director = Director.find_by(name:query.upcase)
-      where('name LIKE ?', "%#{director.name}%")
-    else
-      all
+    def age(dob)
+      now = Time.now.utc.to_date
+      now.year - dob.year - ((now.month > dob.month || (now.month == dob.month && now.day >= dob.day)) ? 0 : 1)
     end
-  end
+
 end

@@ -1,2 +1,22 @@
-<%= @companies %>
-<%= @directors %>
+
+<h1>Corporate ReSEARCH!</h1>
+
+<%= form_tag companies_path, method: :get do %>
+  <%= text_field_tag 'term', params[:term], placeholder: "Search by companys's name OR status" %>
+  <%= submit_tag 'Search' %>
+<% end %>
+
+<br>
+
+<% @companies.each do |company| %>
+  <% if company.respond_to?(:pg_search_highlight) %>
+     <%= link_to company.pg_search_highlight.html_safe, company_path(company) %>
+  <% else %>
+    <%= link_to company.name, company_path(company) %>
+  <% end %>
+<ul>
+  <% company.directors.each do |director| %>
+    <li><%= director.name %></li>
+  <% end %>
+</ul>
+<% end %>
