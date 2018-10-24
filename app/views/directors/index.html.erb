@@ -1,10 +1,22 @@
-<%= form_tag directors_path, method: "get" do %>
-  <%= label_tag :q, "Search by Name:" %>
-  <%= text_field_tag :q, params[:q] %>
-  <%= submit_tag "Search", name:nil %>
+
+<h1>Corporate ReSEARCH!</h1>
+
+<%= form_tag directors_path, method: :get do %>
+  <%= text_field_tag 'term', params[:term], placeholder: "Search by director's name" %>
+  <%= submit_tag 'Search' %>
 <% end %>
 
+<br>
 
 <% @directors.each do |director| %>
-<p> <%= link_to director.name, director_path(director) %> || <%= director.company_name %> </p>
+  <% if director.respond_to?(:pg_search_highlight) %>
+     <%= link_to director.pg_search_highlight.html_safe, director_path(director) %>
+  <% else %>
+    <%= link_to director.name, director_path(director) %>
+  <% end %>
+<ul>
+  <% director.companies.each do |company| %>
+    <li><%= company.name %></li>
+  <% end %>
+</ul>
 <% end %>
