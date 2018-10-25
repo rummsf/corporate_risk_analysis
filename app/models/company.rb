@@ -7,7 +7,7 @@ class Company < ApplicationRecord
 
     include PgSearch
     #multisearchable :search_by_everything, against: [:name, :status, :location]
-    pg_search_scope :search_by_name, against: [:name, :status],
+    pg_search_scope :search_by_name, against: [:name, :status, :incorporation_date, :company_number],
       using: {
         dmetaphone: {any_word: true, sort_only: true},
         tsearch: {

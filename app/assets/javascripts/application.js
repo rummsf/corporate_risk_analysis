@@ -14,7 +14,6 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
-
 //= require underscore
 //= require select2
 //= require messages

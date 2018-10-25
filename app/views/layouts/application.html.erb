@@ -10,6 +10,23 @@
   </head>
 
   <body>
+    <div>
+      <% if logged_in? %>
+        <p> You are logged in as <%= link_to current_user.username, current_user %> </p>
+        <p> <%= link_to "Log out", logout_path, method: "post" %> </p>
+
+      <% else %>
+        <p> You are not logged in. </p>
+        <p> <%= link_to "Log in?", login_path %> </p>
+        <p> or </p>
+        <p> <%= link_to "Sign up?", signup_path %> </p>
+      <% end %>
+    </div>
+
+
+    <% if flash[:authorized] %>
+      <p> <%= flash[:authorized] %> </p>
+    <% end %>
     <%= yield %>
   </body>
 </html>

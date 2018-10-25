@@ -1,5 +1,6 @@
 class CompaniesController < ApplicationController
   def index
+  authorized?
   respond_to do |format|
     if params[:term]
       @companies = Company.search_by_name(params[:term]).with_pg_search_highlight
@@ -12,6 +13,7 @@ class CompaniesController < ApplicationController
   end
 
   def show
+  authorized?
   @company = Company.find(params[:id])
   end
 
