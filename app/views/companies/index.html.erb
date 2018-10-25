@@ -1,32 +1,29 @@
-
 <h1 class="title">Corporate ReSEARCH!</h1>
 
 <div class="field">
   <%= form_tag companies_path, method: :get do %>
-    <div class="control is-small">
+  <div class="control is-small">
     <%= text_field_tag 'term', params[:term], placeholder: "Search by companys's name, status OR industry", class: "input is-primary" %>
-    </div>
-    <div class="field">
-      <%= submit_tag 'Search', class: "button is-info" %>
-    </div>
-  <% end %>
+  </div>
+  <div class="field">
+    <%= submit_tag 'Search', class: "button is-info" %>
+  </div>
+<% end %>
 </div>
-
-
 
 <br>
 <div class="section">
-  <div class="container">
-    <div class="tile is-ancestor is-vertical">
+<div class="container">
+  <div class="tile is-ancestor is-vertical">
 
-          <% @companies.each do |company| %>
-          <div class="tile is-child box">
-            <div class="content">
-            <% if company.respond_to?(:pg_search_highlight) %>
-               <%= link_to company.pg_search_highlight.html_safe, company_path(company) %>
-            <% else %>
-              <%= link_to company.name, company_path(company) %>
-            <% end %>
+    <% @companies.each do |company| %>
+      <div class="tile is-child box">
+        <div class="content">
+          <% if company.respond_to?(:pg_search_highlight) %>
+            <%= link_to company.pg_search_highlight.html_safe, company_path(company) %>
+          <% else %>
+            <%= link_to company.name, company_path(company) %>
+          <% end %>
           <ul>
             <% company.directors.each do |director| %>
               <li><%= director.name %></li>
@@ -34,7 +31,7 @@
           </ul>
         </div>
       </div>
-          <% end %>
-    </div>
+    <% end %>
   </div>
+</div>
 </div>

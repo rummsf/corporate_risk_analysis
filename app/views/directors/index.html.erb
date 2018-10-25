@@ -1,22 +1,36 @@
-
 <h1>Corporate ReSEARCH!</h1>
 
-<%= form_tag directors_path, method: :get do %>
-  <%= text_field_tag 'term', params[:term], placeholder: "Search by director's name" %>
-  <%= submit_tag 'Search', class: "button is-info"%>
+<div class="field">
+  <%= form_tag directors_path, method: :get do %>
+  <div class="control is-small">
+    <%= text_field_tag 'term', params[:term], placeholder: "Search by director's name", class: "input is-primary" %>
+  </div>
+  <div class="field">
+    <%= submit_tag 'Search', class: "button is-info"%>
+  </div>
 <% end %>
+</div>
 
 <br>
-
-<% @directors.each do |director| %>
-  <% if director.respond_to?(:pg_search_highlight) %>
-     <%= link_to director.pg_search_highlight.html_safe, director_path(director) %>
-  <% else %>
-    <%= link_to director.name, director_path(director) %>
-  <% end %>
-<ul>
-  <% director.companies.each do |company| %>
-    <li><%= company.name %></li>
-  <% end %>
-</ul>
-<% end %>
+<div class="section">
+<div class="container">
+  <div class="tile is-ancestor is-vertical">
+    <% @directors.each do |director| %>
+      <div class="tile is-child box">
+        <div class="content">
+          <% if director.respond_to?(:pg_search_highlight) %>
+            <%= link_to director.pg_search_highlight.html_safe, director_path(director) %>
+          <% else %>
+            <%= link_to director.name, director_path(director) %>
+          <% end %>
+          <ul>
+            <% director.companies.each do |company| %>
+              <li><%= company.name %></li>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+</div>
