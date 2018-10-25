@@ -3,7 +3,7 @@
 
 <%= form_tag directors_path, method: :get do %>
   <%= text_field_tag 'term', params[:term], placeholder: "Search by director's name" %>
-  <%= submit_tag 'Search' %>
+  <%= submit_tag 'Search', class: "button is-info"%>
 <% end %>
 
 <br>

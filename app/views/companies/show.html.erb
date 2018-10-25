@@ -1,14 +1,17 @@
-<h2><%= @company.name %></h2>
+<div>
+  <h2 class="title"><%= @company.name %></h2>
+</div>
 
-<h3>List of Officers</h3>
-  <ul>
-    <% @company.directors.each do |director| %>
-    <div class="director-details">
-      <h3><%= link_to director.name, director_path(director) %></h3>
-      <p>Position in company: <%= CompanyDirector.find_by(company_id:@company.id, director_id: director.id).position %></p>
-      <p>Date of birth: <%= director.date_of_birth.strftime("%A, %b %d, %Y.") %></p>
-      <p>Age: <%= director.age(director.date_of_birth) %></p>
-      <br>
-    </div>
-    <% end %>
-  </ul>
+<div>
+  <h3 class="subtitle">List of Officers</h3>
+      <% @company.directors.each do |director| %>
+        <div class="content">
+          <h3><%= link_to director.name, director_path(director) %></h3>
+          <ul>
+            <li>Position in company: <%= CompanyDirector.find_by(company_id:@company.id, director_id: director.id).position %></li>
+            <li>Date of birth: <%= director.date_of_birth.strftime("%A, %b %d, %Y.") %></li>
+            <li>Age: <%= director.age(director.date_of_birth) %></li>
+          </ul>
+        </div>
+      <% end %>
+</div>

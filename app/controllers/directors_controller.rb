@@ -1,7 +1,6 @@
 class DirectorsController < ApplicationController
-
-
   def index
+    authorized?
     respond_to do |format|
       if params[:term]
         @directors = Director.search_by_name(params[:term]).with_pg_search_highlight
@@ -14,6 +13,7 @@ class DirectorsController < ApplicationController
   end
 
   def show
+    authorized?
     @director = Director.find(params[:id])
   end
 
