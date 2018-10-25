@@ -6,6 +6,7 @@ class Company < ApplicationRecord
     has_many :directors, through: :company_directors
 
     include PgSearch
+    #multisearchable :search_by_everything, against: [:name, :status, :location]
     pg_search_scope :search_by_name, against: [:name, :status],
       using: {
         dmetaphone: {any_word: true, sort_only: true},
