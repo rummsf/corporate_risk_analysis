@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   resources :directors
   resources :companies
   resources :messages, only: [:new]
-  resources :users, only: [:index, :show, :create, :edit, :update, :delete]
+  resources :users, only: [:index, :show, :create, :edit, :update, :destroy]
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   # users

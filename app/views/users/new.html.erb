@@ -1,3 +1,9 @@
+<% if flash[:errors] %>
+  <% flash[:errors].each do |e| %>
+    <p> <%= e %></p>
+  <% end %>
+<% end %>
+
 <h1>Sign up</h1>
 <%= form_for @user do |f| %>
   <%= f.label :username %>

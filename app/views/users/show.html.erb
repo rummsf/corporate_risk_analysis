@@ -28,4 +28,7 @@
       <% end %>
     </tbody>
   </table>
+  <%= form_tag user_path, method: "delete" do %>
+  <%= submit_tag "Delete History", class: "button is-danger" %>
+  <% end %>
 </div>

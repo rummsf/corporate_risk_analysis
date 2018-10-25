@@ -8,9 +8,10 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     if @user.valid?
       @user.save
-      return
+      redirect_to login_path
     else
-      redirect_to new_user_path
+      flash[:errors] = @user.errors.full_messages
+      redirect_to signup_path
     end
   end
 
@@ -26,6 +27,12 @@ class UsersController < ApplicationController
   end
 
   def update
+  end
+
+  def destroy
+    @user = User.find(params[:id])
+    @user.searches.destroy_all
+    redirect_to user_path(@user)
   end
 
   private
