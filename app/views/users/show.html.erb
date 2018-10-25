@@ -1,1 +1,31 @@
 <h1>Hi <%= @user.username %>. Thank you for using Corporate ReSEARCH.</h1>
+
+<div class="content">
+  <h3 class="title">Your search history.</h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Query</th>
+        <th>Search Type</th>
+        <th>Results</th>
+        <th>Repeat?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @user.searches.each do |search| %>
+      <tr>
+        <td><%= search.query %></td>
+        <td><%= search.search_type %></td>
+        <td><%= search.result_count %></td>
+        <td>
+          <% if search.search_type == "Director" %>
+          <a href="<%= directors_url %>?utf8=✓&term=<%= search.query %>&commit=Search" class="button">Search Again</a>
+          <% elsif search.search_type == "Company" %>
+          <a href="<%= companies_url %>?utf8=✓&term=<%= search.query %>&commit=Search" class="button">Search Again</a>
+          <% end %>
+        </td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>

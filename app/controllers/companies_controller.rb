@@ -4,6 +4,7 @@ class CompaniesController < ApplicationController
     respond_to do |format|
       if params[:term]
         @companies = Company.search_by_name(params[:term]).with_pg_search_highlight
+        Search.create(query: params[:term], user_id: session[:user_id], search_type: "Company", result_count: @companies.size)
       else
         @companies = Company.all
       end

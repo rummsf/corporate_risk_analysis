@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :searches
   resources :sanctioned_entities
   resources :locations
   resources :company_directors
