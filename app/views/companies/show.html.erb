@@ -4,7 +4,7 @@
   <ul>
     <% @company.directors.each do |director| %>
     <div class="director-details">
-      <h3><%= director.name %></h3>
+      <h3><%= link_to director.name, director_path(director) %></h3>
       <p>Position in company: <%= CompanyDirector.find_by(company_id:@company.id, director_id: director.id).position %></p>
       <p>Date of birth: <%= director.date_of_birth.strftime("%A, %b %d, %Y.") %></p>
       <p>Age: <%= director.age(director.date_of_birth) %></p>
