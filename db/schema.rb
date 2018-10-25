@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_25_091143) do
+ActiveRecord::Schema.define(version: 2018_10_25_144548) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "fuzzystrmatch"
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 2018_10_25_091143) do
     t.integer "location_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "industry"
   end
 
   create_table "company_directors", force: :cascade do |t|

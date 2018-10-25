@@ -4,7 +4,7 @@
 <div class="field">
   <%= form_tag companies_path, method: :get do %>
     <div class="control is-small">
-    <%= text_field_tag 'term', params[:term], placeholder: "Search by companys's name OR status", class: "input is-primary" %>
+    <%= text_field_tag 'term', params[:term], placeholder: "Search by companys's name, status OR industry", class: "input is-primary" %>
     </div>
     <div class="field">
       <%= submit_tag 'Search', class: "button is-info" %>
