@@ -4,7 +4,7 @@
   <ul>
     <% @director.companies.each do |company| %>
     <div class="company-details">
-      <h3><%= company.name %></h3>
+      <h3><%= link_to company.name, company_path(company) %></h3>
       <p>Position in company: <%= CompanyDirector.find_by(company_id:company.id, director_id: @director.id).position %></p>
       <p>Address: <%= company.location.address %>, <%= company.location.city %>, <%= company.location.state %>, <%= company.location.country %>.</p>
       <br>
