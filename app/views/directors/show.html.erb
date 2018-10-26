@@ -11,10 +11,10 @@
           <h3><%= link_to company.name, company_path(company) %></h3>
           <ul>
             <li>Position in company:
-              <%= CompanyDirector.find_by(company_id:company.id, director_id: @director.id).position %></li>
+              <%= CompanyDirector.find_by(company_id:company.id, director_id: @director.id).position.capitalize %></li>
             <li>Address:
               <%= company.location.address %>,
-              <%= company.location.city %>,
+              <%= company.location.postcode %>,
               <%= company.location.state %>,
               <%= company.location.country %>.</li>
           </ul>
