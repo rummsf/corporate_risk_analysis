@@ -5,18 +5,18 @@
 <div>
   <h3 class="subtitle">List of Officers</h3>
   <% @company.directors.each do |director| %>
-  <div class="box">
-    <div class="content">
-      <h3><%= link_to director.name, director_path(director) %></h3>
-      <ul>
-        <li>Position in company:
-          <%= CompanyDirector.find_by(company_id:@company.id, director_id: director.id).position %></li>
-        <li>Date of birth:
-          <%= director.date_of_birth.strftime("%A, %b %d, %Y.") %></li>
-        <li>Age:
-          <%= director.age(director.date_of_birth) %></li>
-      </ul>
+    <div class="box">
+      <div class="content">
+        <h3><%= link_to director.name, director_path(director) %></h3>
+        <ul>
+          <li>Position in company:
+            <%= CompanyDirector.find_by(company_id:@company.id, director_id: director.id).position %></li>
+          <li>Date of birth:
+            <%= director.date_of_birth.strftime("%A, %b %d, %Y.") %></li>
+          <li>Age:
+            <%= director.age(director.date_of_birth) %></li>
+        </ul>
+      </div>
     </div>
-  </div>
   <% end %>
 </div>

@@ -4,18 +4,18 @@
   <div class="tile is-ancestor">
     <div class="tile is-parent is-4">
       <div class="tile is-child box">
-      <%= pie_chart Company.all.group(:industry).count, donut: true, title: "h", :library => { title: {text: 'Distribution of Sectors'} }   %>
+        <%= pie_chart Company.all.group(:industry).count, donut: true, title: "h", :library => { title: {text: 'Distribution of Sectors'} } %>
       </div>
     </div>
     <div class="tile is-parent is-4">
-    <div class="tile is-child box">
-      <%= line_chart Search.all.group_by_minute(:created_at).count, title: "h", :library => { title: {text: 'Search Activity'}, yAxis: {title: {text: 'Hello'} } } %>
-    </div>
+      <div class="tile is-child box">
+        <%= line_chart Search.all.group_by_minute(:created_at).count, title: "h", :library => { title: {text: 'Search Activity'}, yAxis: {title: {text: 'Hello'} } } %>
+      </div>
     </div>
     <div class="tile is-parent is-4">
-    <div class="tile is-child box">
-      <%= bar_chart Search.all.group(:search_type).count, title: "h", :library => { title: {text: 'Search Type'} } %>
-    </div>
+      <div class="tile is-child box">
+        <%= bar_chart Search.all.group(:search_type).count, title: "h", :library => { title: {text: 'Search Type'} } %>
+      </div>
     </div>
   </div>
 </div>
@@ -32,29 +32,28 @@
         <%= submit_tag 'Search', class: "button is_large is-info is-rounded" %>
       </div>
     <% end %>
-    </div>
-    </div>
-    </div>
-
+  </div>
+</div>
+</div>
 
 <br>
 <div class="section">
-  <div class="tile is-ancestor is-vertical">
-    <% @directors.each do |director| %>
-      <div class="tile is-child box">
-        <div class="content">
-          <% if director.respond_to?(:pg_search_highlight) %>
-            <h3><%= link_to director.pg_search_highlight.html_safe, director_path(director) %></h3>
-          <% else %>
-            <h3><%= link_to director.name, director_path(director) %></h3>
+<div class="tile is-ancestor is-vertical">
+  <% @directors.each do |director| %>
+    <div class="tile is-child box">
+      <div class="content">
+        <% if director.respond_to?(:pg_search_highlight) %>
+          <h3><%= link_to director.pg_search_highlight.html_safe, director_path(director) %></h3>
+        <% else %>
+          <h3><%= link_to director.name, director_path(director) %></h3>
+        <% end %>
+        <ul>
+          <% director.companies.each do |company| %>
+            <li><%= company.name %></li>
           <% end %>
-          <ul>
-            <% director.companies.each do |company| %>
-              <li><%= company.name %></li>
-            <% end %>
-          </ul>
-        </div>
+        </ul>
       </div>
-    <% end %>
-  </div>
+    </div>
+  <% end %>
+</div>
 </div>
