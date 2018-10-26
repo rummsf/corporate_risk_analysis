@@ -11,6 +11,7 @@ class CompaniesController < ApplicationController
       format.json
       format.html
     end
+    @searches = Search.all
   end
 
   def show

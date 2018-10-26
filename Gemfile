@@ -68,3 +68,5 @@ gem 'seed_dump'
 gem 'pg_search'
 gem 'select2-rails'
 gem 'underscore-rails'
+gem "chartkick"
+gem 'groupdate'

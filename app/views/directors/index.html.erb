@@ -1,19 +1,44 @@
-<h1>Corporate ReSEARCH!</h1>
+<h1 class="title">Director Search</h1>
 
-<div class="field">
-  <%= form_tag directors_path, method: :get do %>
-  <div class="control is-small">
-    <%= text_field_tag 'term', params[:term], placeholder: "Search by director's name", class: "input is-primary" %>
+<div class="section">
+  <div class="tile is-ancestor">
+    <div class="tile is-parent is-4">
+      <div class="tile is-child box">
+      <%= pie_chart Company.all.group(:industry).count, donut: true, title: "h", :library => { title: {text: 'Distribution of Sectors'} }   %>
+      </div>
+    </div>
+    <div class="tile is-parent is-4">
+    <div class="tile is-child box">
+      <%= line_chart Search.all.group_by_minute(:created_at).count, title: "h", :library => { title: {text: 'Search Activity'}, yAxis: {title: {text: 'Hello'} } } %>
+    </div>
+    </div>
+    <div class="tile is-parent is-4">
+    <div class="tile is-child box">
+      <%= bar_chart Search.all.group(:search_type).count, title: "h", :library => { title: {text: 'Search Type'} } %>
+    </div>
+    </div>
   </div>
-  <div class="field">
-    <%= submit_tag 'Search', class: "button is-info"%>
-  </div>
-<% end %>
 </div>
+
+<div class="section">
+  <div class="container">
+    <div class="field">
+      <%= form_tag directors_path, method: :get do %>
+      <div class="control is-small">
+        <%= text_field_tag 'term', params[:term], placeholder: "Search by director's name", class: "input is-primary is-medium is-rounded" %>
+      </div>
+      <br>
+      <div class="field has-text-centered">
+        <%= submit_tag 'Search', class: "button is_large is-info is-rounded" %>
+      </div>
+    <% end %>
+    </div>
+    </div>
+    </div>
+
 
 <br>
 <div class="section">
-<div class="container">
   <div class="tile is-ancestor is-vertical">
     <% @directors.each do |director| %>
       <div class="tile is-child box">
@@ -32,5 +57,4 @@
       </div>
     <% end %>
   </div>
-</div>
 </div>
