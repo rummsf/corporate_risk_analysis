@@ -6,6 +6,7 @@
   <h3 class="subtitle">List of associated companies</h3>
   <ul>
     <% @director.companies.each do |company| %>
+    <div class="box">
       <div class="content">
         <h3><%= link_to company.name, company_path(company) %></h3>
         <ul>
@@ -18,5 +19,6 @@
             <%= company.location.country %>.</li>
         </ul>
       </div>
+    </div>
     <% end %>
   </div>

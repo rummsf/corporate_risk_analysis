@@ -5,6 +5,7 @@
 <div>
   <h3 class="subtitle">List of Officers</h3>
   <% @company.directors.each do |director| %>
+  <div class="box">
     <div class="content">
       <h3><%= link_to director.name, director_path(director) %></h3>
       <ul>
@@ -16,5 +17,6 @@
           <%= director.age(director.date_of_birth) %></li>
       </ul>
     </div>
+  </div>
   <% end %>
 </div>

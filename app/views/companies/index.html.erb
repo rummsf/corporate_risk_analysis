@@ -44,9 +44,9 @@
       <div class="tile is-child box">
         <div class="content">
           <% if company.respond_to?(:pg_search_highlight) %>
-            <%= link_to company.pg_search_highlight.html_safe, company_path(company) %>
+            <h3><%= link_to company.pg_search_highlight.html_safe, company_path(company) %></h3>
           <% else %>
-            <%= link_to company.name, company_path(company) %>
+            <h3><%= link_to company.name, company_path(company) %></h3>
           <% end %>
           <ul>
             <% company.directors.each do |director| %>
