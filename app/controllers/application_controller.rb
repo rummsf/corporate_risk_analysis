@@ -14,9 +14,9 @@ class ApplicationController < ActionController::Base
   end
 
   def authorized?
-    if !logged_in?
-      flash[:authorized] = "You are not logged in."
-      redirect_to login_path and return
+    unless logged_in?
+      flash[:authorized] = 'You are not logged in.'
+      redirect_to(login_path) && return
     end
   end
 

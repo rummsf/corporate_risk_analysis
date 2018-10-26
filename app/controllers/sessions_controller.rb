@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
       session[:user_id] = user.id
       redirect_to companies_path
     else
-      flash[:errors] = ["Invalid username or password"]
+      flash[:errors] = ['Invalid username or password']
       redirect_to login_path
     end
   end

@@ -3,9 +3,9 @@ class DirectorsController < ApplicationController
     authorized?
     respond_to do |format|
       if params[:term]
-        #byebug
+        # byebug
         @directors = Director.search_by_name(params[:term]).with_pg_search_highlight
-        Search.create(query: params[:term], user_id: session[:user_id], search_type: "Director", result_count: @directors.size)
+        Search.create(query: params[:term], user_id: session[:user_id], search_type: 'Director', result_count: @directors.size)
       else
         @directors = Director.all
       end
@@ -19,8 +19,8 @@ class DirectorsController < ApplicationController
     @director = Director.find(params[:id])
   end
 
-
   private
+
   def director_params
     params.require(:director).permit(:name, :term)
   end
