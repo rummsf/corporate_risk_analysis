@@ -1,0 +1,15 @@
+<h1> Login </h1>
+
+<% if flash[:errors] %>
+  <% flash[:errors].each do |e| %>
+    <p> <%= e %></p>
+  <% end %>
+<% end %>
+
+<%= form_tag sessions_path do %>
+  <%= label_tag :username %>
+  <%= text_field_tag :username %>
+  <%= label_tag :password %>
+  <%= password_field_tag :password %>
+  <%= submit_tag "Login", class: "button is-primary" %>
+<% end %>

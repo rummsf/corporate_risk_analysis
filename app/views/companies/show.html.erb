@@ -1,0 +1,18 @@
+<div>
+  <h2 class="title"><%= @company.name %></h2>
+</div>
+
+<div>
+  <h3 class="subtitle">List of Officers</h3>
+  <% @company.directors.each do |director| %>
+    <div class="box">
+      <div class="content">
+        <h3><%= link_to director.name, director_path(director) %></h3>
+        <ul>
+          <li>Position in company:
+            <%= CompanyDirector.find_by(company_id:@company.id, director_id: director.id).position.capitalize %></li>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+</div>

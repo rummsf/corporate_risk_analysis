@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  query: MyString
+  User: one
+  no-test-framework: MyString
+
+two:
+  query: MyString
+  User: two
+  no-test-framework: MyString

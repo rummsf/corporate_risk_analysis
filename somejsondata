@@ -1,0 +1,324 @@
+{
+  "api_version" => "0.4", "results" => {
+    "companies" => [{
+      "company" => {
+        "name" => "\"GOOGLE\" IMPORT. EXPORT.", "company_number" => "00198057", "jurisdiction_code" => "bo", "incorporation_date" => nil, "dissolution_date" => nil, "company_type" => "EMPRESA UNIPERSONAL", "registry_url" => nil, "branch" => nil, "branch_status" => nil, "inactive" => false, "current_status" => "Actualizada", "created_at" => "2017-04-06T09:06:17+00:00", "updated_at" => "2017-04-07T13:26:01+00:00", "retrieved_at" => "2017-02-15T20:17:20+00:00", "opencorporates_url" => "https://opencorporates.com/companies/bo/00198057", "previous_names" => [], "source" => {
+          "publisher" => "Registro de Comercio de Bolivia", "url" => "http://fundempresa.org.bo", "retrieved_at" => "2017-02-15T20:17:20+00:00"
+        }, "registered_address" => {
+          "street_address" => "AV. TAJIBOS\nN° 079\nZONA: 11 DE OCTUBRE KM. 2", "locality" => "COBIJA", "region" => nil, "postal_code" => nil, "country" => "Bolivia"
+        }, "registered_address_in_full" => "AV. TAJIBOS\nN° 079\nZONA: 11 DE OCTUBRE KM. 2, COBIJA", "industry_codes" => [{
+          "industry_code" => {
+            "code" => "4771", "description" => "Venta por menor de prendas de vestir y accesorios", "code_scheme_id" => "bo_caeb_2011", "code_scheme_name" => "Clasificación de Actividades Económicas de Bolivia 2011", "uid" => "bo_caeb_2011-4771"
+          }
+        }], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "\"Гугъл България\" ЕООД", "company_number" => "203444578", "jurisdiction_code" => "bg", "incorporation_date" => "2015-03-10", "dissolution_date" => nil, "company_type" => "Single Limited Liability Company (Еднолично Дружество с ограничена отговорност)", "registry_url" => "https://public.brra.bg/CheckUps/Verifications/ActiveCondition.ra?guid=aa5c6b330517410ab7c9d2f3dc5dbf68", "branch" => nil, "branch_status" => nil, "inactive" => false, "current_status" => "Active (Активен търговец)", "created_at" => "2018-03-20T22:01:15+00:00", "updated_at" => "2018-03-20T22:01:20+00:00", "retrieved_at" => "2017-07-13T00:00:00+00:00", "opencorporates_url" => "https://opencorporates.com/companies/bg/203444578", "previous_names" => [], "source" => {
+          "publisher" => "Ministry of Justice Registration Agency", "url" => "https://opendata.government.bg/dataset/tbprobckn-pernctbp", "terms" => "Commons CC Zero License (cc-zero)", "terms_url" => "https://opendata.government.bg/dataset/tbprobckn-pernctbp", "retrieved_at" => "2017-07-13T00:00:00+00:00"
+        }, "registered_address" => nil, "registered_address_in_full" => nil, "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "ADMOB GOOGLE INC.", "company_number" => "4140533", "jurisdiction_code" => "us_de", "incorporation_date" => "2006-04-10", "dissolution_date" => nil, "company_type" => "Corporation", "registry_url" => nil, "branch" => nil, "branch_status" => nil, "inactive" => nil, "current_status" => nil, "created_at" => "2011-10-19T07:36:19+00:00", "updated_at" => "2018-06-14T21:26:01+00:00", "retrieved_at" => "2018-06-11T07:38:46+00:00", "opencorporates_url" => "https://opencorporates.com/companies/us_de/4140533", "previous_names" => [], "source" => {
+          "publisher" => "Delaware Department of State: Division of Corporations", "url" => "http://www.corp.delaware.gov/", "retrieved_at" => "2018-06-11T07:38:46+00:00"
+        }, "registered_address" => nil, "registered_address_in_full" => nil, "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "AMERICA GOOGLE TECHNOLOGY LIMITED", "company_number" => "1440610", "jurisdiction_code" => "hk", "incorporation_date" => "2010-04-09", "dissolution_date" => "2014-08-15", "company_type" => "Private company limited by shares", "registry_url" => nil, "branch" => nil, "branch_status" => nil, "inactive" => true, "current_status" => "Dissolved", "created_at" => "2014-08-31T20:57:39+00:00", "updated_at" => "2018-06-06T23:28:23+00:00", "retrieved_at" => "2018-06-04T13:46:42+00:00", "opencorporates_url" => "https://opencorporates.com/companies/hk/1440610", "previous_names" => [{
+          "start_date" => "2010-04-09",
+          "company_name" => "美國谷歌科技有限公司"
+        }], "source" => {
+          "publisher" => "Hong Kong Companies Registry", "url" => "http://www.icris.cr.gov.hk/", "retrieved_at" => "2018-06-04T13:46:42+00:00"
+        }, "registered_address" => nil, "registered_address_in_full" => nil, "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "Aarts International B.V.", "company_number" => "37118929", "jurisdiction_code" => "nl", "incorporation_date" => nil, "dissolution_date" => nil, "company_type" => "Besloten Vennootschap", "registry_url" => "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=37118929&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken", "branch" => nil, "branch_status" => nil, "inactive" => false, "current_status" => "Active", "created_at" => "2011-01-13T12:31:33+00:00", "updated_at" => "2018-09-29T17:37:28+00:00", "retrieved_at" => "2018-09-16T10:31:55+00:00", "opencorporates_url" => "https://opencorporates.com/companies/nl/37118929", "previous_names" => [], "source" => {
+          "publisher" => "Kamer van Koophandel (KvK)", "url" => "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=37118929&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken", "retrieved_at" => "2018-09-16T10:31:55+00:00"
+        }, "registered_address" => nil, "registered_address_in_full" => nil, "industry_codes" => [], "restricted_for_marketing" => true, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "Andrew Google LLC", "company_number" => "20131167518", "jurisdiction_code" => "us_co", "incorporation_date" => "2013-03-15", "dissolution_date" => "2016-02-23", "company_type" => "Limited Liability Company", "registry_url" => nil, "branch" => nil, "branch_status" => nil, "inactive" => true, "current_status" => "Voluntarily Dissolved", "created_at" => "2015-09-17T17:58:10+00:00", "updated_at" => "2018-10-02T12:37:31+00:00", "retrieved_at" => "2018-09-28T21:24:28+00:00", "opencorporates_url" => "https://opencorporates.com/companies/us_co/20131167518", "previous_names" => [], "source" => {
+          "publisher" => "Colorado Secretary of State", "url" => "https://www.sos.state.co.us/biz", "retrieved_at" => "2018-09-28T21:24:28+00:00"
+        }, "registered_address" => nil, "registered_address_in_full" => nil, "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "BARNEY GOOGLE ASS'N.", "company_number" => "0900004086", "jurisdiction_code" => "us_nj", "incorporation_date" => "1924-06-23", "dissolution_date" => nil, "company_type" => "Domestic Non-Profit Corporation", "registry_url" => nil, "branch" => nil, "branch_status" => nil, "inactive" => nil, "current_status" => nil, "created_at" => "2012-08-27T20:46:15+00:00", "updated_at" => "2018-08-05T06:08:21+00:00", "retrieved_at" => "2018-07-14T11:22:58+00:00", "opencorporates_url" => "https://opencorporates.com/companies/us_nj/0900004086", "previous_names" => [], "source" => {
+          "publisher" => "State of New Jersey Division of Revenue", "url" => "https://www.njportal.com/DOR/businessrecords/EntityDocs/BusinessStatCopies.aspx", "retrieved_at" => "2018-07-14T11:22:58+00:00"
+        }, "registered_address" => nil, "registered_address_in_full" => nil, "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "BARNEY GOOGLE PTY LTD", "company_number" => "109636713", "jurisdiction_code" => "au", "incorporation_date" => "2004-06-21", "dissolution_date" => nil, "company_type" => "Australian Proprietary Company, Limited By Shares", "registry_url" => "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/panelSearch.jspx?searchTab=search&searchType=OrgAndBusNm&searchText=109636713&_adf.ctrl-state=13cs8h575n_4", "branch" => nil, "branch_status" => nil, "inactive" => false, "current_status" => "Registered", "created_at" => "2014-10-18T08:58:00+00:00", "updated_at" => "2018-02-07T22:19:54+00:00", "retrieved_at" => "2018-01-26T14:26:25+00:00", "opencorporates_url" => "https://opencorporates.com/companies/au/109636713", "previous_names" => [], "source" => {
+          "publisher" => "Australian Securities & Investments Commission", "url" => "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/panelSearch.jspx?searchTab=search&searchType=OrgAndBusNm&searchText=109636713&_adf.ctrl-state=13cs8h575n_4", "retrieved_at" => "2018-01-26T14:26:25+00:00"
+        }, "registered_address" => {
+          "street_address" => nil, "locality" => "BALLARAT", "region" => "Victoria", "postal_code" => "3350", "country" => "Australia"
+        }, "registered_address_in_full" => "BALLARAT, Victoria, 3350", "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "BASE LOGIC LTD", "company_number" => "07765835", "jurisdiction_code" => "gb", "incorporation_date" => "2011-09-07", "dissolution_date" => nil, "company_type" => "Private Limited Company", "registry_url" => "https://beta.companieshouse.gov.uk/company/07765835", "branch" => nil, "branch_status" => nil, "inactive" => false, "current_status" => "Active", "created_at" => "2011-09-08T04:27:48+00:00", "updated_at" => "2018-09-12T09:53:07+00:00", "retrieved_at" => "2018-09-12T09:53:06+00:00", "opencorporates_url" => "https://opencorporates.com/companies/gb/07765835", "previous_names" => [{
+          "company_name" => "BASE STEEL LTD",
+          "start_date" => "2013-05-24",
+          "end_date" => "2016-01-28"
+        }, {
+          "company_name" => "GOOGLE ME LIMITED",
+          "start_date" => "2011-09-07",
+          "end_date" => "2013-05-24"
+        }], "source" => {
+          "publisher" => "UK Companies House", "url" => "http://xmlgw.companieshouse.gov.uk/", "terms" => "UK Crown Copyright", "retrieved_at" => "2018-09-12T09:53:06+00:00"
+        }, "registered_address" => {
+          "street_address" => "21 Overdale Avenue", "locality" => "New Malden", "region" => nil, "postal_code" => "KT3 3UE", "country" => "United Kingdom"
+        }, "registered_address_in_full" => "21 Overdale Avenue, New Malden, KT3 3UE", "industry_codes" => [{
+          "industry_code" => {
+            "code" => "25.99", "description" => "Manufacture of other fabricated metal products n.e.c.", "code_scheme_id" => "uk_sic_2007", "code_scheme_name" => "UK SIC Classification 2007", "uid" => "uk_sic_2007-2599"
+          }
+        }, {
+          "industry_code" => {
+            "code" => "25.99", "description" => "Manufacture of other fabricated metal products n.e.c.", "code_scheme_id" => "eu_nace_2", "code_scheme_name" => "European Community NACE Rev 2", "uid" => "eu_nace_2-2599"
+          }
+        }, {
+          "industry_code" => {
+            "code" => "2599", "description" => "Manufacture of other fabricated metal products n.e.c.", "code_scheme_id" => "isic_4", "code_scheme_name" => "UN ISIC Rev 4", "uid" => "isic_4-2599"
+          }
+        }], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "BI-GOOGLE LIMITED", "company_number" => "SC581924", "jurisdiction_code" => "gb", "incorporation_date" => "2017-11-20", "dissolution_date" => nil, "company_type" => "Private Limited Company", "registry_url" => "https://beta.companieshouse.gov.uk/company/SC581924", "branch" => nil, "branch_status" => nil, "inactive" => false, "current_status" => "Active", "created_at" => "2017-11-20T11:24:53+00:00", "updated_at" => "2018-08-26T10:44:35+00:00", "retrieved_at" => "2018-08-26T10:44:35+00:00", "opencorporates_url" => "https://opencorporates.com/companies/gb/SC581924", "previous_names" => [], "source" => {
+          "publisher" => "UK Companies House", "url" => "http://xmlgw.companieshouse.gov.uk/", "terms" => "UK Crown Copyright", "retrieved_at" => "2018-08-26T10:44:35+00:00"
+        }, "registered_address" => {
+          "street_address" => "Fairyknowe House\nFairyknowe House, Eaglesfield", "locality" => "Lockerbie", "region" => nil, "postal_code" => "DG11 3AG", "country" => "United Kingdom"
+        }, "registered_address_in_full" => "Fairyknowe House\nFairyknowe House, Eaglesfield, Lockerbie, DG11 3AG", "industry_codes" => [{
+          "industry_code" => {
+            "code" => "58.19", "description" => "Other publishing activities", "code_scheme_id" => "uk_sic_2007", "code_scheme_name" => "UK SIC Classification 2007", "uid" => "uk_sic_2007-5819"
+          }
+        }, {
+          "industry_code" => {
+            "code" => "58.19", "description" => "Other publishing activities", "code_scheme_id" => "eu_nace_2", "code_scheme_name" => "European Community NACE Rev 2", "uid" => "eu_nace_2-5819"
+          }
+        }, {
+          "industry_code" => {
+            "code" => "5819", "description" => "Other publishing activities", "code_scheme_id" => "isic_4", "code_scheme_name" => "UN ISIC Rev 4", "uid" => "isic_4-5819"
+          }
+        }], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "BIOFLAME AUSTRALIA PTY LTD", "company_number" => "134406241", "jurisdiction_code" => "au", "incorporation_date" => "2008-11-30", "dissolution_date" => "2012-04-21", "company_type" => "Australian Proprietary Company, Limited By Shares", "registry_url" => "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/panelSearch.jspx?searchTab=search&searchType=OrgAndBusNm&searchText=134406241&_adf.ctrl-state=13cs8h575n_4", "branch" => nil, "branch_status" => nil, "inactive" => true, "current_status" => "Deregistered", "created_at" => "2018-05-28T05:47:18+00:00", "updated_at" => "2018-07-28T03:38:50+00:00", "retrieved_at" => "2018-04-04T09:10:15+00:00", "opencorporates_url" => "https://opencorporates.com/companies/au/134406241", "previous_names" => [{
+          "company_name" => "GOOGLE IT QUICK PTY LTD",
+          "start_date" => "2008-11-30",
+          "end_date" => "2009-04-10"
+        }], "source" => {
+          "publisher" => "Australian Securities & Investments Commission", "url" => "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/panelSearch.jspx?searchTab=search&searchType=OrgAndBusNm&searchText=134406241&_adf.ctrl-state=13cs8h575n_4", "retrieved_at" => "2018-04-04T09:10:15+00:00"
+        }, "registered_address" => nil, "registered_address_in_full" => nil, "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "CABLENET COMMUNICATION SYSTEMS LTD", "company_number" => "HE137520", "jurisdiction_code" => "cy", "incorporation_date" => "2003-04-10", "dissolution_date" => nil, "company_type" => "Limited Company", "registry_url" => "https://efiling.drcor.mcit.gov.cy/DrcorPublic/SearchResults.aspx?name=%25&number=137520&searchtype=optStartMatch&index=1&lang=EN&tname=%25&sc=1", "branch" => nil, "branch_status" => nil, "inactive" => false, "current_status" => "Active", "created_at" => "2014-09-20T00:19:21+00:00", "updated_at" => "2018-07-10T14:04:34+00:00", "retrieved_at" => "2018-06-30T01:42:20+00:00", "opencorporates_url" => "https://opencorporates.com/companies/cy/HE137520", "previous_names" => [{
+          "company_name" => "GOOGLE CONSULTANTS LIMITED"
+        }, {
+          "company_name" => "NV CABLE COMMUNICATION SYSTEMS LIMITED"
+        }], "source" => {
+          "publisher" => "Cyprus Department of Registrar of Companies and Official Receiver", "url" => "http://www.mcit.gov.cy/mcit/drcor/drcor.nsf/index_en/index_en?OpenDocument", "retrieved_at" => "2018-06-30T01:42:20+00:00"
+        }, "registered_address" => {
+          "street_address" => "Αγιου Νικολαου, 41-49,\nNIMELI COURT BLOCK A, Floor 2,\nΕγκωμη\n2408, Λευκωσία, Κύπρος", "locality" => nil, "region" => nil, "postal_code" => nil, "country" => "Cyprus"
+        }, "registered_address_in_full" => "Αγιου Νικολαου, 41-49,\nNIMELI COURT BLOCK A, Floor 2,\nΕγκωμη\n2408, Λευκωσία, Κύπρος", "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "CARRE GOOGLE, INC.", "company_number" => "2089159", "jurisdiction_code" => "us_de", "incorporation_date" => "1986-04-23", "dissolution_date" => nil, "company_type" => "Corporation", "registry_url" => nil, "branch" => nil, "branch_status" => nil, "inactive" => nil, "current_status" => nil, "created_at" => "2015-10-13T19:04:26+00:00", "updated_at" => "2018-05-16T21:18:37+00:00", "retrieved_at" => "2018-05-09T08:30:31+00:00", "opencorporates_url" => "https://opencorporates.com/companies/us_de/2089159", "previous_names" => [], "source" => {
+          "publisher" => "Delaware Department of State: Division of Corporations", "url" => "http://www.corp.delaware.gov/", "retrieved_at" => "2018-05-09T08:30:31+00:00"
+        }, "registered_address" => nil, "registered_address_in_full" => nil, "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "CE GOOGLE FRANCE", "company_number" => "803970128", "jurisdiction_code" => "fr", "incorporation_date" => "2000-01-01", "dissolution_date" => nil, "company_type" => "Association déclarée", "registry_url" => nil, "branch" => nil, "branch_status" => nil, "inactive" => nil, "current_status" => nil, "created_at" => "2017-01-19T04:29:46+00:00", "updated_at" => "2017-01-27T22:46:06+00:00", "retrieved_at" => "2017-01-04T18:30:00+00:00", "opencorporates_url" => "https://opencorporates.com/companies/fr/803970128", "previous_names" => [], "source" => {
+          "publisher" => "Institut National de la Statistique et des Études Économiques (INSEE)", "url" => "https://www.sirene.fr", "retrieved_at" => "2017-01-04T18:30:00+00:00", "terms" => "French Open Government Licence \"Licence ouverte / Open Licence\"", "terms_url" => "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
+        }, "registered_address" => {
+          "street_address" => "8 RUE DE LONDRES", "locality" => "PARIS 9", "region" => "PARIS", "postal_code" => "75009", "country" => "FRANCE"
+        }, "registered_address_in_full" => "8 RUE DE LONDRES, PARIS 9, PARIS, 75009", "industry_codes" => [{
+          "industry_code" => {
+            "code" => "94.20Z", "description" => "Activités des syndicats de salariés", "code_scheme_id" => "fr_naf_2008", "code_scheme_name" => "Nomenclature d'activités française (2008)", "uid" => "fr_naf_2008-9420Z"
+          }
+        }, {
+          "industry_code" => {
+            "code" => "94.20", "description" => "Activities of trade unions", "code_scheme_id" => "eu_nace_2", "code_scheme_name" => "European Community NACE Rev 2", "uid" => "eu_nace_2-9420"
+          }
+        }, {
+          "industry_code" => {
+            "code" => "9420", "description" => "Activities of trade unions", "code_scheme_id" => "isic_4", "code_scheme_name" => "UN ISIC Rev 4", "uid" => "isic_4-9420"
+          }
+        }], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "CHI GOOGLE, INC", "company_number" => "P10000056555", "jurisdiction_code" => "us_fl", "incorporation_date" => "2010-07-08", "dissolution_date" => nil, "company_type" => "Domestic for Profit", "registry_url" => nil, "branch" => nil, "branch_status" => nil, "inactive" => true, "current_status" => "Inactive", "created_at" => "2012-03-21T15:26:26+00:00", "updated_at" => "2018-10-18T08:11:17+00:00", "retrieved_at" => "2018-10-01T00:00:00+00:00", "opencorporates_url" => "https://opencorporates.com/companies/us_fl/P10000056555", "previous_names" => [], "source" => {
+          "publisher" => "Florida Department of State Division of Corporations", "url" => "http://www.sunbiz.org", "retrieved_at" => "2018-10-01T00:00:00+00:00"
+        }, "registered_address" => nil, "registered_address_in_full" => nil, "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "CJ GOOGLE & CO LIMITED", "company_number" => "05625618", "jurisdiction_code" => "gb", "incorporation_date" => "2005-11-16", "dissolution_date" => "2007-08-28", "company_type" => "Private Limited Company", "registry_url" => "https://beta.companieshouse.gov.uk/company/05625618", "branch" => nil, "branch_status" => nil, "inactive" => true, "current_status" => "Dissolved", "created_at" => "2011-04-26T06:24:07+00:00", "updated_at" => "2015-12-17T17:09:54+00:00", "retrieved_at" => "2011-05-06T18:32:25+00:00", "opencorporates_url" => "https://opencorporates.com/companies/gb/05625618", "previous_names" => [{
+          "company_name" => "C.J. GOOGLE CO LIMITED",
+          "end_date" => "2005-12-07"
+        }], "source" => {
+          "publisher" => "UK Companies House", "url" => "http://xmlgw.companieshouse.gov.uk/", "terms" => "UK Crown Copyright", "retrieved_at" => "2011-05-06T18:32:25+00:00"
+        }, "registered_address" => {
+          "street_address" => "5-15 CROMER STREET", "locality" => "LONDON", "region" => nil, "postal_code" => "WC1H 8LS", "country" => "United Kingdom"
+        }, "registered_address_in_full" => "5-15 CROMER STREET, LONDON, WC1H 8LS", "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "CM GOOGLE & M CO.,LTD.", "company_number" => "0105554085881", "jurisdiction_code" => "th", "incorporation_date" => "2011-06-30", "dissolution_date" => nil, "company_type" => nil, "registry_url" => nil, "branch" => nil, "branch_status" => nil, "inactive" => true, "current_status" => "Defunct", "created_at" => "2013-01-09T15:25:19+00:00", "updated_at" => "2017-09-08T19:06:43+00:00", "retrieved_at" => "2017-09-05T00:15:50+00:00", "opencorporates_url" => "https://opencorporates.com/companies/th/0105554085881", "previous_names" => [], "source" => {
+          "publisher" => "Thailand Department of Business Development", "url" => "http://www.dbd.go.th/Applications/cds/index.php", "retrieved_at" => "2017-09-05T00:15:50+00:00"
+        }, "registered_address" => {
+          "street_address" => "202/83 SOI KHEHA ROMKLAO  27, KHLONG SONG TON NUN, LAT KRABANG, BANGKOK", "locality" => nil, "region" => nil, "postal_code" => nil, "country" => "Thailand"
+        }, "registered_address_in_full" => "202/83 SOI KHEHA ROMKLAO  27, KHLONG SONG TON NUN, LAT KRABANG, BANGKOK", "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "COLAB LLC", "company_number" => "185584C5", "jurisdiction_code" => "us_hi", "incorporation_date" => "2017-12-18", "dissolution_date" => nil, "company_type" => "Domestic Limited Liability Company (LLC)", "registry_url" => "https://hbe.ehawaii.gov/documents/business.html?fileNumber=185584C5", "branch" => nil, "branch_status" => nil, "inactive" => false, "current_status" => "Active Registration", "created_at" => "2018-02-10T10:02:24+00:00", "updated_at" => "2018-10-12T18:21:02+00:00", "retrieved_at" => "2018-10-06T22:04:56+00:00", "opencorporates_url" => "https://opencorporates.com/companies/us_hi/185584C5", "previous_names" => [], "source" => {
+          "publisher" => "Hawaii Department Of Commerce & Consumer Affairs", "url" => "https://hbe.ehawaii.gov/documents/business.html?fileNumber=185584C5", "retrieved_at" => "2018-10-06T22:04:56+00:00"
+        }, "registered_address" => nil, "registered_address_in_full" => nil, "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "Company Registration Number 1625882 Limited", "company_number" => "1625882", "jurisdiction_code" => "hk", "incorporation_date" => "2011-07-05", "dissolution_date" => nil, "company_type" => "Private company limited by shares", "registry_url" => nil, "branch" => nil, "branch_status" => nil, "inactive" => false, "current_status" => "Live", "created_at" => "2014-08-31T22:35:07+00:00", "updated_at" => "2018-06-15T10:08:59+00:00", "retrieved_at" => "2018-06-15T00:10:47+00:00", "opencorporates_url" => "https://opencorporates.com/companies/hk/1625882", "previous_names" => [{
+          "start_date" => "2016-03-02",
+          "company_name" => "谷哥國際香港有限公司"
+        }, {
+          "start_date" => "2015-11-27",
+          "company_name" => "Google International (HK) Company Limited"
+        }, {
+          "start_date" => "2015-11-27",
+          "company_name" => "谷哥國際香港有限公司"
+        }, {
+          "start_date" => "2011-07-05",
+          "company_name" => "LUNING INTERNATIONAL INDUSTRIAL (HONG KONG) LIMITED"
+        }, {
+          "start_date" => "2011-07-05",
+          "company_name" => "璐寧國際實業(香港)有限公司"
+        }], "source" => {
+          "publisher" => "Hong Kong Companies Registry", "url" => "http://www.icris.cr.gov.hk/", "retrieved_at" => "2018-06-15T00:10:47+00:00"
+        }, "registered_address" => nil, "registered_address_in_full" => nil, "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "Coöperatieve Vereniging RAM Group U.A.", "company_number" => "68463170", "jurisdiction_code" => "nl", "incorporation_date" => nil, "dissolution_date" => nil, "company_type" => "Uitgesloten Aansprakelijkheid", "registry_url" => "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=68463170&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken", "branch" => nil, "branch_status" => nil, "inactive" => false, "current_status" => "Active", "created_at" => "2017-06-08T00:11:25+00:00", "updated_at" => "2018-07-17T07:29:46+00:00", "retrieved_at" => "2018-07-07T22:08:16+00:00", "opencorporates_url" => "https://opencorporates.com/companies/nl/68463170", "previous_names" => [], "source" => {
+          "publisher" => "Kamer van Koophandel (KvK)", "url" => "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=68463170&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken", "retrieved_at" => "2018-07-07T22:08:16+00:00"
+        }, "registered_address" => nil, "registered_address_in_full" => nil, "industry_codes" => [], "restricted_for_marketing" => true, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "D.C.MEDITERRANEAN DREAM HOMES LTD", "company_number" => "HE141709", "jurisdiction_code" => "cy", "incorporation_date" => "2003-10-03", "dissolution_date" => "2011-10-26", "company_type" => "Limited Company", "registry_url" => "https://efiling.drcor.mcit.gov.cy/DrcorPublic/SearchResults.aspx?name=%25&number=141709&searchtype=optStartMatch&index=1&lang=EN&tname=%25&sc=1", "branch" => nil, "branch_status" => nil, "inactive" => true, "current_status" => "Dissolved", "created_at" => "2014-09-20T00:22:42+00:00", "updated_at" => "2018-07-10T14:23:03+00:00", "retrieved_at" => "2018-06-30T22:55:33+00:00", "opencorporates_url" => "https://opencorporates.com/companies/cy/HE141709", "previous_names" => [{
+          "company_name" => "GOOGLE LIMITED"
+        }, {
+          "company_name" => "LURAY LIMITED"
+        }], "source" => {
+          "publisher" => "Cyprus Department of Registrar of Companies and Official Receiver", "url" => "http://www.mcit.gov.cy/mcit/drcor/drcor.nsf/index_en/index_en?OpenDocument", "retrieved_at" => "2018-06-30T22:55:33+00:00"
+        }, "registered_address" => {
+          "street_address" => "Γρίβα Διγενή, 152,\nΠαραλίμνι\n5281, Αμμόχωστος, Κύπρος", "locality" => nil, "region" => nil, "postal_code" => nil, "country" => "Cyprus"
+        }, "registered_address_in_full" => "Γρίβα Διγενή, 152,\nΠαραλίμνι\n5281, Αμμόχωστος, Κύπρος", "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "DESIGN GOOGLE PTE. LTD.", "company_number" => "201326799D", "jurisdiction_code" => "sg", "incorporation_date" => nil, "dissolution_date" => nil, "company_type" => nil, "registry_url" => "https://www.tis.bizfile.gov.sg/ngbtisinternet/faces/oracle/webcenter/portalapp/pages/productlisting/ishopProductListing.jspx?EntityNo=201326799D&_afrLoop=93640927563359&_afrWindowMode=0&_afrWindowId=null", "branch" => nil, "branch_status" => nil, "inactive" => false, "current_status" => "Live Company", "created_at" => "2016-07-12T14:40:05+00:00", "updated_at" => "2016-12-02T17:35:30+00:00", "retrieved_at" => "2016-11-25T12:56:48+00:00", "opencorporates_url" => "https://opencorporates.com/companies/sg/201326799D", "previous_names" => [], "source" => {
+          "publisher" => "Singapore Accounting and Corporate Regulatory Authority", "url" => "http://www.bizfile.gov.sg", "retrieved_at" => "2016-11-25T12:56:48+00:00"
+        }, "registered_address" => {
+          "street_address" => "315 PASIR PANJANG ROAD, #05-04, PARC REGENCY, SINGAPORE(118652)", "locality" => nil, "region" => nil, "postal_code" => nil, "country" => "Singapore"
+        }, "registered_address_in_full" => "315 PASIR PANJANG ROAD, #05-04, PARC REGENCY, SINGAPORE(118652)", "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "De Google Marketeer", "company_number" => "62499238", "jurisdiction_code" => "nl", "incorporation_date" => nil, "dissolution_date" => nil, "company_type" => nil, "registry_url" => "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=62499238&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken", "branch" => nil, "branch_status" => nil, "inactive" => false, "current_status" => "Active", "created_at" => "2015-05-08T05:04:52+00:00", "updated_at" => "2018-04-05T11:17:38+00:00", "retrieved_at" => "2018-03-18T07:01:13+00:00", "opencorporates_url" => "https://opencorporates.com/companies/nl/62499238", "previous_names" => [], "source" => {
+          "publisher" => "Kamer van Koophandel (KvK)", "url" => "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=62499238&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken", "retrieved_at" => "2018-03-18T07:01:13+00:00"
+        }, "registered_address" => nil, "registered_address_in_full" => nil, "industry_codes" => [], "restricted_for_marketing" => true, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "Denderend Media", "company_number" => "32081908", "jurisdiction_code" => "nl", "incorporation_date" => nil, "dissolution_date" => nil, "company_type" => nil, "registry_url" => "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=32081908&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken", "branch" => nil, "branch_status" => nil, "inactive" => false, "current_status" => "Active", "created_at" => "2011-01-13T10:35:42+00:00", "updated_at" => "2018-09-29T09:04:19+00:00", "retrieved_at" => "2018-09-26T14:40:24+00:00", "opencorporates_url" => "https://opencorporates.com/companies/nl/32081908", "previous_names" => [], "source" => {
+          "publisher" => "Kamer van Koophandel (KvK)", "url" => "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=32081908&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken", "retrieved_at" => "2018-09-26T14:40:24+00:00"
+        }, "registered_address" => nil, "registered_address_in_full" => nil, "industry_codes" => [], "restricted_for_marketing" => true, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "European Google Media Handelsbolag", "company_number" => "969691-2386", "jurisdiction_code" => "se", "incorporation_date" => nil, "dissolution_date" => nil, "company_type" => "Handelsbolag", "registry_url" => nil, "branch" => nil, "branch_status" => nil, "inactive" => false, "current_status" => "Avregistrerad Pga Verksamheten Upphört", "created_at" => "2012-09-17T11:43:50+00:00", "updated_at" => "2018-02-18T09:15:59+00:00", "retrieved_at" => "2018-02-16T21:11:50+00:00", "opencorporates_url" => "https://opencorporates.com/companies/se/969691-2386", "previous_names" => [], "source" => {
+          "publisher" => "Bolagsverket (Swedish Companies Registration Office)", "url" => "http://www.bolagsverket.se/", "retrieved_at" => "2018-02-16T21:11:50+00:00"
+        }, "registered_address" => nil, "registered_address_in_full" => nil, "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "FANPAGE SOCIAL APP MANAGING FACEBOOK,TWITTER,LINKEDIN,PINTEREST,GOOGLE+,AND", "company_number" => "D165848", "jurisdiction_code" => "us_id", "incorporation_date" => "2013-09-18", "dissolution_date" => nil, "company_type" => "ASSUMED BUSINESS NAME", "registry_url" => "http://www.accessidaho.org/public/sos/corp/D165848.html", "branch" => nil, "branch_status" => nil, "inactive" => false, "current_status" => "Current", "created_at" => "2017-01-09T03:09:41+00:00", "updated_at" => "2018-01-07T07:59:38+00:00", "retrieved_at" => "2017-12-13T14:38:15+00:00", "opencorporates_url" => "https://opencorporates.com/companies/us_id/D165848", "previous_names" => [], "source" => {
+          "publisher" => "Idaho Secretary of State", "url" => "http://www.accessidaho.org/public/sos/corp/D165848.html", "retrieved_at" => "2017-12-13T14:38:15+00:00"
+        }, "registered_address" => {
+          "street_address" => "1433 S MICHIGAN LANE\nBOISE, ID 83706", "locality" => nil, "region" => nil, "postal_code" => nil, "country" => "United States"
+        }, "registered_address_in_full" => "1433 S MICHIGAN LANE\nBOISE, ID 83706", "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "FIRMAPRESSEN - MARKEDSFØRING VIA GOOGLE FACEBOOK LINKEDIN & INSTAGRAM FOR BEDRIFTER STRØM", "company_number" => "820386752", "jurisdiction_code" => "no", "incorporation_date" => "2018-02-16", "dissolution_date" => "2018-07-03", "company_type" => "Enkeltmannsforetak", "registry_url" => "http://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=820386752", "branch" => nil, "branch_status" => nil, "inactive" => true, "current_status" => nil, "created_at" => "2018-03-13T18:31:44+00:00", "updated_at" => "2018-08-31T05:48:31+00:00", "retrieved_at" => "2018-08-01T00:23:08+00:00", "opencorporates_url" => "https://opencorporates.com/companies/no/820386752", "previous_names" => [], "source" => {
+          "publisher" => "Brønnøysundregistrene", "terms" => "Norwegian Open Data Licence (NDOL)", "terms_url" => "http://data.norge.no/nlod/no/1.0", "url" => "http://data.brreg.no/", "retrieved_at" => "2018-08-01T00:23:08+00:00"
+        }, "registered_address" => {
+          "street_address" => "Werenskiolds gate 14", "locality" => "FREDRIKSTAD", "region" => nil, "postal_code" => "1608", "country" => "Norge"
+        }, "registered_address_in_full" => "Werenskiolds gate 14, FREDRIKSTAD, 1608", "industry_codes" => [{
+          "industry_code" => {
+            "code" => "73.110", "description" => "Advertising agencies", "code_scheme_id" => "no_sic_2007", "code_scheme_name" => "Norway Standard Industrial Classification 2007", "uid" => "no_sic_2007-73110"
+          }
+        }, {
+          "industry_code" => {
+            "code" => "73.11", "description" => "Advertising agencies", "code_scheme_id" => "eu_nace_2", "code_scheme_name" => "European Community NACE Rev 2", "uid" => "eu_nace_2-7311"
+          }
+        }, {
+          "industry_code" => {
+            "code" => "7310", "description" => "Advertising", "code_scheme_id" => "isic_4", "code_scheme_name" => "UN ISIC Rev 4", "uid" => "isic_4-7310"
+          }
+        }], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "FONDS GOOGLE-AIPG POUR L'INNOVATION NUMERIQUE DE LA PRESSE", "company_number" => "797702800", "jurisdiction_code" => "fr", "incorporation_date" => "2013-06-13", "dissolution_date" => nil, "company_type" => "Association déclarée", "registry_url" => nil, "branch" => nil, "branch_status" => nil, "inactive" => nil, "current_status" => nil, "created_at" => "2017-01-16T16:26:41+00:00", "updated_at" => "2017-01-26T16:25:47+00:00", "retrieved_at" => "2017-01-04T18:30:00+00:00", "opencorporates_url" => "https://opencorporates.com/companies/fr/797702800", "previous_names" => [], "source" => {
+          "publisher" => "Institut National de la Statistique et des Études Économiques (INSEE)", "url" => "https://www.sirene.fr", "retrieved_at" => "2017-01-04T18:30:00+00:00", "terms" => "French Open Government Licence \"Licence ouverte / Open Licence\"", "terms_url" => "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
+        }, "registered_address" => {
+          "street_address" => "27 AVENUE DE L OPERA", "locality" => "PARIS 1", "region" => "PARIS", "postal_code" => "75001", "country" => "FRANCE"
+        }, "registered_address_in_full" => "27 AVENUE DE L OPERA, PARIS 1, PARIS, 75001", "industry_codes" => [{
+          "industry_code" => {
+            "code" => "63.91Z", "description" => "Activités des agences de presse", "code_scheme_id" => "fr_naf_2008", "code_scheme_name" => "Nomenclature d'activités française (2008)", "uid" => "fr_naf_2008-6391Z"
+          }
+        }, {
+          "industry_code" => {
+            "code" => "63.91", "description" => "News agency activities", "code_scheme_id" => "eu_nace_2", "code_scheme_name" => "European Community NACE Rev 2", "uid" => "eu_nace_2-6391"
+          }
+        }, {
+          "industry_code" => {
+            "code" => "6391", "description" => "News agency activities", "code_scheme_id" => "isic_4", "code_scheme_name" => "UN ISIC Rev 4", "uid" => "isic_4-6391"
+          }
+        }], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "Filmu studija \"GALILEJS\", IK", "company_number" => "50002096111", "jurisdiction_code" => "lv", "incorporation_date" => "2003-05-02", "dissolution_date" => nil, "company_type" => "Individuālais komersants", "registry_url" => "http://dati.ur.gov.lv/", "branch" => nil, "branch_status" => nil, "inactive" => nil, "current_status" => nil, "created_at" => "2014-06-23T08:13:24+00:00", "updated_at" => "2018-09-24T18:37:36+00:00", "retrieved_at" => "2018-09-24T03:10:06+00:00", "opencorporates_url" => "https://opencorporates.com/companies/lv/50002096111", "previous_names" => [{
+          "company_name" => "IK \"Māris Kravalis, mediju eksperts\"",
+          "end_date" => "2008-11-10"
+        }, {
+          "company_name" => "Google Latvija, projekts, IK",
+          "end_date" => "2009-06-01"
+        }], "source" => {
+          "publisher" => "Latvia Database of Enterprises", "url" => "http://dati.ur.gov.lv/register/register.csv", "retrieved_at" => "2018-09-24T03:10:06+00:00"
+        }, "registered_address" => {
+          "street_address" => "Melioratoru iela 8 - 40, Ikšķile, Ikšķiles nov.", "locality" => nil, "region" => nil, "postal_code" => nil, "country" => "Latvia"
+        }, "registered_address_in_full" => "Melioratoru iela 8 - 40, Ikšķile, Ikšķiles nov.", "industry_codes" => [], "restricted_for_marketing" => nil, "native_company_number" => nil
+      }
+    }, {
+      "company" => {
+        "name" => "Foryard Studio Amsterdam B.V.", "company_number" => "63305089", "jurisdiction_code" => "nl", "incorporation_date" => nil, "dissolution_date" => nil, "company_type" => "Besloten Vennootschap", "registry_url" => "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=63305089&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken", "branch" => nil, "branch_status" => nil, "inactive" => false, "current_status" => "Active", "created_at" => "2015-05-21T10:59:58+00:00", "updated_at" => "2018-04-05T13:44:38+00:00", "retrieved_at" => "2018-03-21T21:58:19+00:00", "opencorporates_url" => "https://opencorporates.com/companies/nl/63305089", "previous_names" => [], "source" => {
+          "publisher" => "Kamer van Koophandel (KvK)", "url" => "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=63305089&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken", "retrieved_at" => "2018-03-21T21:58:19+00:00"
+        }, "registered_address" => nil, "registered_address_in_full" => nil, "industry_codes" => [], "restricted_for_marketing" => true, "native_company_number" => nil
+      }
+    }], "page" => 1, "per_page" => 30, "total_pages" => 26, "total_count" => 770
+  }
+}
