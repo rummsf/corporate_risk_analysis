@@ -1,4 +1,4 @@
-#Corporate Risk Analysis built with Ruby-on-Rails#
+#Corporate Risk Analysis built with Ruby-on-Rails
 
 A research tool to allow a user to map corporate networks between individuals and companies.
 
