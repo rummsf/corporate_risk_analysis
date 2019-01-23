@@ -1,25 +1,7 @@
-# README
+#Corporate Risk Analysis built with Ruby-on-Rails#
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A research tool to allow a user to map corporate networks between individuals and companies.
 
-Things you may want to cover:
+For use in investigations, due diligence and business intelligence, such as competitor analysis.  
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# corporate_risk_analysis
+It is possible to identify links between companies and officers of those companies, for example to explore potential presence in different jurisdictions or sectors.
